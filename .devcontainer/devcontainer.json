@@ -1,1 +1,15 @@
-
+{
+  "name": "Your Codespace Name",
+  "settings": { 
+    // Set any VSCode settings you want here
+    // For example, to specify the default shell:
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker", // Docker extension
+    "ms-python.python",            // Python extension
+    "vscjava.vscode-java-pack"     // Java Extension Pack
+    // Add other extensions' IDs here
+  ],
+  // Add other configuration options here
+}
